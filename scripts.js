@@ -29,6 +29,10 @@ function goToAboutUsPage() {
     window.location.href = "aboutus.html"; 
 }
 
+function goToRecentStreamPage() {
+    window.location.href = "stream.html"; 
+}
+
 function goToHomepage() {
     window.location.href = "index.html"; 
 }
