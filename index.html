@@ -249,6 +249,40 @@ ul li a:hover {
 	cursor: none;
 }
 
+.content-buttons2 button {
+    background-color: white;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Outfit', sans-serif;
+    margin: 10px;
+    letter-spacing: 1.3px;
+    background: rgb(168, 163, 163);
+    border-radius: 5px;
+    opacity: 0.9;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); 
+	  display: flex;
+    justify-content: space-between;
+    
+    margin-top: 30px;
+    margin-right: 5px;
+    
+    transition: transform 0.3s ease;
+		cursor: none;
+
+}
+		
+.content-buttons2 button:hover {
+    color: rgb(83, 70, 70);
+    background-color: rgb(210, 202, 202);
+    opacity: 1;
+	transform: translateX(8px);
+	cursor: none;
+}
+
 .content h1 {
     margin-bottom: 10px;
 	color: #252226;
@@ -382,6 +416,10 @@ Hey there! Ready to explore how social media connects with school life at APEC S
     
          <div class="content-buttons" id="buttonContainer">
             <button onclick="goToAboutUsPage()">ABOUT US</button>
+        </div>
+    
+         <div class="content-buttons2" id="buttonContainer2">
+            <button onclick="goToRecentStreamPage()">RECENT STREAM</button>
         </div>
     
     </div>
